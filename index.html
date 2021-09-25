@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>ConverterApp</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+        <!--  Section 1    -->
+    <section class="index-section">
+      <nav id="nav-bar">
+        <div id="logo-x-text">
+          <img
+            src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2F2815_R1NUIENBUiAyNDc0LTA0%201.png?v=1630412583411"
+          />
+          <p style="margin-left: 54px;">Temperature<br />Converter</p>
+        </div>
+        <div>
+          <ul class="nav-list">
+            <li><a href="#about-section-2">About Project</a></li>
+            <li><a href="#team-section">About Team</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- End of Nav -->
+
+      <div id="main-body">
+        <div class="main-body-box">
+          <p class="celsius">
+            <select id="scale2">
+              <option value="Celsius">Celsius(°C)</option>
+              <option value="Fahrenheit">Fahrenheit (°F)</option>
+              <option value="Kelvin">Kelvin(°K)</option>
+              <option value="Rankine">Rankine(°R)</option>
+            </select>
+          </p>
+          <!--   Celsius input         -->
+          <input
+            type="number"
+            class="input-box"
+            id="input1"
+            placeholder="Type degrees..."
+          />
+        </div>
+
+        <div class="main-body-box">
+          <p class="fahrenheit">
+            <select id="scale">
+              <option value="Fahrenheit">Fahrenheit (°F)</option>
+              <option value="Kelvin">Kelvin(°K)</option>
+              <option value="Rankine">Rankine(°R)</option>
+              <option value="Celsius">Celsius(°C)</option>
+            </select>
+          </p>
+          <!--     Fahrenheit input       -->
+          <input
+            type="number"
+            class="input-box"
+            id="input2"
+            placeholder="Type degrees..."
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Section 1 -->
+  
+    <!-- About section -->
+    <section id="about-section-2">
+      <div class="about-section-desc">
+        <h3
+          style="color: #995AAA; font-family: Open Sans; font-size: 14px; font-style: normal; font-weight: 600; line-height: 0px; 
+                   letter-spacing: 0em; text-align: left;"
+        >
+          ABOUT
+        </h3>
+        <h2
+          style="color: #474747; font-family: Open Sans; font-size: 40px; font-style: normal; font-weight: 300; line-height: 55px; 
+                   letter-spacing: 0em; text-align: left; "
+        >
+          The Project
+        </h2>
+        <p>
+          This is a small application to convert temperature scales. It also
+          indicates how hot the values (degrees) inputted by displaying a color
+          change to the background, Red for hot, Blue for cold and Grey for
+          warm.
+        </p>
+        <p>
+          Temperature, a measure of hotness or coldness expressed in terms of
+          any of several arbitrary scales and indicating the direction in which
+          heat energy will spontaneously flow i.e., from a hotter body (one at a
+          higher temperature) to a colder body (one at a lower temperature).
+        </p>
+        <p>
+          Three temperature scales are in general use today. The Fahrenheit (°F)
+          temperature scale is used in the United States and a few other
+          English-speaking countries. The Celsius (°C) temperature scale is
+          standard in virtually all countries that have adopted the metric
+          system of measurement, and it is widely used in the sciences. The
+          Kelvin (K) scale, an absolute temperature scale (obtained by shifting
+          the Celsius scale by −273.15° so that absolute zero coincides with 0
+          K), is recognized as the international standard for scientific
+          temperature measurement.
+        </p>
+      </div>
+      <div id="imgwrap">
+        <img
+          style="border-radius:10px;"
+          src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2Ftemperature-convert.png?v=1630584542007"
+          id="imgsect2"
+        />
+      </div>
+    </section>
+    <!-- End ofAbout section -->
+
+    <!-- End of Section 2 -->
+
+    <section id="team-section">
+      <h2>About Our Team</h2>
+      <div class="card team-section-card">
+        <div class="team-all">
+          <div class="image-border">
+            <img
+              src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2FWhatsApp%20Image%202021-07-19%20at%2022.44.17-modified.png?v=1630535646956"
+            />
+          </div>
+          <div class="team-desc">
+            <p>Ademola Fadumo</p>
+            <p>Team Designer | Idea Curator</p>
+            <p>Software Developer</p>
+          </div>
+        </div>
+        <div class="team-mid">
+          <div class="team-all">
+            <div class="image-border">
+              <img
+                src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2Fprocessed-modified.png?v=1630535629302"
+              />
+            </div>
+            <div class="team-desc">
+              <p>Omolade Akinwumi</p>
+              <p>Team Lead</p>
+              <p>Software Developer</p>
+            </div>
+          </div>
+          <div class="team-all">
+            <div class="image-border">
+              <img
+                src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2Fnew%20passport-modified.png?v=1630535645350"
+              />
+            </div>
+            <div class="team-desc">
+              <p>Victor Ikeokoro</p>
+              <p>Team Research Lead | Idea Curator</p>
+              <p>Software Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="team-all">
+          <div class="image-border">
+            <img
+              src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2FScreenshot_20210530_092110-modified.png?v=1630581765483"
+            />
+          </div>
+          <div class="team-desc">
+            <p>Olajuwon Owoseni</p>
+            <p>Team QA Tester | Idea Curator</p>
+            <p>Software Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Section 3 -->
+
+    <section id="contact-section">
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://cdn.glitch.com/f52e27c8-caa7-4caa-9659-2e63dab426c5%2Fundraw_contact_us_15o2.png?v=1630484296868"
+              style="width:100%"
+            />
+          </div>
+          <div class="column">
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/xpzkkrpv"
+              method="POST"
+            >
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="First Name"
+                placeholder="Your name.."
+              />
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="Last Name"
+                placeholder="Your last name.."
+              />
+              <label for="country">Country</label>
+              <select id="country" name="Country">
+                <option value="Select">Select</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+                <option value="UK">United Kingdom</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="Subject"
+                placeholder="Write something.."
+                style="height:170px"
+              ></textarea>
+              <input type="submit" value="Submit" id="submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>
+        Made with ❤️ by Group IV (Team Dynamo)
+      </p>
+      <p>
+        Copyright &#169; 2021 | Enyata 5.0 Bootcamp
+      </p>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/mail.js"></script>
+  </body>
+</html>
